@@ -11,11 +11,11 @@ provider:
   environment:
     JWT_SECRET: MiniUdemySuperSecretKey2026
     # Vamos reaproveitar o banco RDS que você já criou para economizar custos!
-    POSTGRES_HOST: nest-db.czy0ym4y6y6d.us-east-2.rds.amazonaws.com
+    POSTGRES_HOST: nestjs-miniudemy-db.czy0ym4y6y6d.us-east-2.rds.amazonaws.com
     POSTGRES_PORT: 5432
     POSTGRES_USER: postgres
     POSTGRES_PASSWORD: Fpa996552315
-    POSTGRES_DB: nestjs_tasks # Usaremos o mesmo banco, mas o TypeORM criará tabelas novas (Course, Lesson, etc)
+    POSTGRES_DB: nestjs_miniudemy # Usaremos o mesmo banco, mas o TypeORM criará tabelas novas (Course, Lesson, etc)
 
 functions:
   main:

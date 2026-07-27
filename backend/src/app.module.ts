@@ -29,7 +29,6 @@ import { EnrollmentsModule } from './enrollments/enrollments.module';
         ssl: { rejectUnauthorized: false }, // 🔒 Obrigatório para comunicação com AWS RDS!
         entities: [__dirname + '/**/*.entity{.ts,.js}'],
         synchronize: true, // Em produção real seria 'false', mas para portfólio isso agiliza a criação das tabelas
-        dropSchema: true, // ⚠️ AVISO: REMOVA ISSO APÓS O RESET
       }),
       inject: [ConfigService],
     }),
