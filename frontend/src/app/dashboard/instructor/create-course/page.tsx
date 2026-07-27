@@ -147,7 +147,7 @@ export default function CreateCoursePage() {
               value={title}
               onChange={(e) => setTitle(e.target.value)}
               className="w-full px-5 py-4 rounded-2xl border border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-purple-500 outline-none transition-all text-lg"
-              placeholder="Ex: Formação Completa em Next.js 15"
+              placeholder="Ex: Comprehensive Next.js 15 Training"
             />
           </div>
 
@@ -162,7 +162,7 @@ export default function CreateCoursePage() {
               value={description}
               onChange={(e) => setDescription(e.target.value)}
               className="w-full px-5 py-4 rounded-2xl border border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 text-gray-900 dark:text-white focus:ring-2 focus:ring-purple-500 outline-none transition-all resize-none"
-              placeholder="O que os alunos vão aprender neste curso?"
+              placeholder="What will students learn in this course?"
             />
           </div>
 
